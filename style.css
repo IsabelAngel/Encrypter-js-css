@@ -1,6 +1,7 @@
 body{
     background: #F3F5FC;
     
+    
 }
 
 .logo{
@@ -11,181 +12,97 @@ body{
     gap: 40px;
 }
 
+.caja_principal{
+    position: relative;
+    align-items: flex-end;
+    margin-left: 10%;
+    margin-top: 3%;
 
-/*.caja_principal{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
+}
 
-}height: 67px;
-position: absolute;
-    width: 680px;
-    height: 288px;
-    
-    left: 240px;
-    top: 168px;*/
 #texto{
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
-
-    /* or 48px */
-
+    line-height: 400%;
+    width: 50%;
     color: #0A3871;
-}
-
-.atencion{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    position: absolute;
-    left: 15%;
-    top: 70%;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-}
-
-/*top: 851px;*/
-
-.img_atencion{
-    position:absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    
 }
 
 .text_atencion{
+    display: inline-flex;
     color: #495057;
     opacity: 0.8;
-
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 150%;
-    position:fixed;
-    left: 17%;
+    font-size: 12px;  
+    margin-top: 2%;
 }
+
 
 #encriptar{
     color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 300%;
-    text-align: center;
-
-    /* Dark blue/dark-blue-300 */
+    width: 328px;
+    height: 67px;
     background: #0A3871;
     border-radius: 24px;
-
-    /* Inside auto layout */
-    flex:none;
     order: 0;
     flex-grow: 1;
+    display:inline-block;
+    margin-top: 7%;
 }
 
 #desencriptar{
     box-sizing: border-box;
     width: 328px;
     height: 67px;
-
-    /* Dark blue/dark-blue-300 */
     border: 1px solid #0A3871;
     border-radius: 24px;
-
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 300%;
-    text-align: center;
     color: #0A3871;
-
-    /* Inside auto layout */
-    flex: none;
     order: 1;
     flex-grow: 0;
 }
 
 .caja_encriptado{
-    position: absolute;
+    position:fixed;
     width: 30%;
     height: 90%;
     left: 68%;
     top: 5%;
-
-    /* White */
     background: #FFFFFF;
-
-    /* shadow */
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-}/*height: 944px;*/
+}
 
 #texto_encriptado{
-    position: absolute;
-    
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-
-    /* or 36px */
-
-    /* Gray/gray-400 */
     color: #495057;
 }
-/*width: 336px;
-    height: 781px;
-    left: 1032px;
-    top: 72px;*/
 
 #copiar{
     box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 24px;
-    gap: 8px;
-
     position: absolute;
+    top: 85%;
+    left: 10%;
     width: 328px;
     height: 67px;
-    top: 885px;
-
-    /* Dark blue/dark-blue-300 */
     border: 1px solid #0A3871;
-    border-radius: 32px;
-
-    
+    border-radius: 24px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 300%;
     text-align: center;
-
-    /* Dark blue/dark-blue-300 */
     color: #0A3871;
-
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 1;
